@@ -226,3 +226,5 @@
   226  ls
   227  cat summary.txt
   228  history >> ~/Documents/history.txt
+
+more history 09/06/13
