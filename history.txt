@@ -1,0 +1,228 @@
+    1  /Volumes/USB20FD/MICROSOFTOFFICE2011/OFFICE\ INSTALLERMPKG/CONTENTS/PACKAGES/OFFICE2011_EN_SLT_STDPKG/CONTENTS/PKGINFO ; exit;
+    2  /Users/kaityb/Downloads/sqlite3 ; exit;
+    3  cd Desktop
+    4  ls
+    5  ls -l
+    6  python workshop_checklist.py
+    7  python workshop_checklist.py
+    8  python workshop_checklist.py
+    9  ipython notebook --pylab=inline
+   10  ipython notebook --pylab=inline
+   11  git clone https://github.com/adina/2013-09-04-uiowa
+   12  cd 2013-09-04-uiowa
+   13  cd day1.shell
+   14  echo Hello, world
+   15  pwd
+   16  ls
+   17  ls -f
+   18  ls -l
+   19  touch testfile
+   20  ls
+   21  rm testfile
+   22  ls
+   23  pwd
+   24  cd ~/2013-09-04-uiowa
+   25  ls -F
+   26  man ls
+   27  man echo
+   28  ls ~/2013-09-04-uiowa/day1shell
+   29  clear
+   30  cd day1.shell
+   31  ls ..
+   32  cd data/thomas
+   33  ls
+   34  *1
+   35  ls *1
+   36  ls *4*1
+   37  ls ../gerdal 2
+   38  ls 2 ../gerdal
+   39  ls 2 ..
+   40  ls 2*9
+   41  ls *2
+   42  ls *29
+   43  ls 2**9
+   44  ls
+   45  ls *29
+   46  ls *2*
+   47  ls *2*9
+   48  ls ../gerdal*2*9
+   49  ls ../gerdal/*2*9
+   50  cd ~/2013-09-04-uiowa
+   51  cd day1.shell/
+   52  cd ~/2013-09-04-uiowa/
+   53  cd day1.shell/
+   54  cd exercises/
+   55  ls ../gerdal/*2*9
+   56  clear
+   57  lear
+   58  cd~
+   59  cd ~
+   60  history
+   61  cd ~/2013-09-04-uiowa/
+   62  which ls
+   63  which python
+   64  echo $PATH
+   65  cd day1.
+   66  cd day1.shell/
+   67  ls
+   68  hello
+   69  ./hello
+   70  ls
+   71  cat ex_data.txt
+   72  cat dictionary.txt 
+   73  cat ~/2013-09-04-uiowa/day1.shell/data/thomas
+   74  cat ../thomas
+   75  cat ~/2013-09-04-uiowa/day1.shell/data/thomas/*
+   76  less dictionary.txt
+   77  more dictionary.txt
+   78  head dictionary.txt
+   79  tail dictionary.txt
+   80  head 20 dictionary.txt
+   81  head -n 20 dictionary.txt
+   82  cd data
+   83  cd Bert
+   84  ls
+   85  cat au*
+   86  cat au* > ../all_data
+   87  ls
+   88  ls ..
+   89  wc all_data
+   90  wc ../all_data
+   91  cat au* >> ../all_data
+   92  wc ../all_data 
+   93  cat ../data/gerdal/ *4* >> ../all_data
+   94  cat ../Gerdal/*4* >> ../all_data
+   95  cd ..
+   96  ls ../all_data
+   97  ls all_data
+   98  wc all_data
+   99  tail all_data
+  100  ls
+  101  cp all_data all_data_backup
+  102  wc all*
+  103  mv all_data_backup /tmp/
+  104  mkdir myfiles
+  105  ls
+  106  ls
+  107  wc Bert/* gerdal/*
+  108  wc Bert/* gerdal/* | less
+  109  nano tobesorted
+  110  pwd
+  111  ls
+  112  sort tobesorted
+  113  wc Bert/* | less
+  114  wc Bert/* | sort -k 3 -n | less
+  115  wc Bert/* | sort -k 3 -n | tail -n 1
+  116  wc Bert/* | sort -k 3 -n | tail -n 2
+  117  wc Bert/* | sort -k 3 -n | tail -n 2 | head -n 1
+  118  man sort
+  119  nano smallest
+  120  nano smallest
+  121  ls
+  122  cd Bert
+  123  ../smallest
+  124  ls -l ..//smallest
+  125  chmod a+x ../smallest
+  126  cat ../smallest
+  127  nano ../smallest
+  128  cat ../smallest
+  129  ../smallest
+  130  cd ../Thomas
+  131  ../smallest 
+  132  cd ..
+  133  find . -print
+  134  find . -print | less
+  135  find . type f -print  | less
+  136  find . -type f -name "*1*" | less
+  137  find . -type f -name "*1*" -or -name "*2*" | less
+  138  find . -type f -name "*1*" -and -name "*2*" | less
+  139  cat smallest
+  140  grep "sort" smallest
+  141  find . -type f -exec grep "Volume" {} \;
+  142  find . -type f -exec grep "Volume" {} \;^c
+  143  find . -type f -print | xargs grep Volume
+  144  ls
+  145  find . -type f NOTES
+  146  find . -type f "NOTES"
+  147  find . -type f notes
+  148  find . -type f -name NOTES
+  149  find . -type f -name NOTES | rm
+  150* ls ./james
+  151  find . -type f -name NOTES | xargs rm
+  152  mkdir cleaneddata
+  153  ls
+  154  find . -type f | mv cleaneddata
+  155  find . -type f | xargs mv cleaneddata
+  156  mv * cleaneddata
+  157  mv * ./cleaneddate
+  158  ls
+  159  ls -l
+  160  mv cleaneddate cleaneddata
+  161  ls
+  162  cd cleaneddata
+  163  ls
+  164  man mv
+  165  find . -type f
+  166  find . -type f -print | xargs mv >> .txt
+  167  find . -type f -print | mv >> .txt
+  168  find . -type f -print | xargs mv >> *.txt
+  169  cd ..
+  170  find . -type f -exec mv {} {}.txt
+  171  find . -type f -exec mv {} {}.txt\;
+  172  find . -type f -exec mv {} {}.txt
+  173  find . -type f -exec mv {} {}.txt \;
+  174  cd ..
+  175  rmdir data/
+  176  rm -r data/
+  177  git checkout -- data
+  178  cd data
+  179  ls
+  180  history
+  181  wc
+  182  wc Bert/* | sort -k 3 -n | tail -n 2 | head -n 1
+  183  wc data/* | sort -k 3 -n | tail -n 2 | head -n
+  184  wc ./* | sort -k 3 -n | tail -n 2 | head -n
+  185  wc * | sort -k 3 -n | tail -n 2 | head -n 1
+  186  ls
+  187  wc Bert/* | sort -k 3 -n | tail -n 2 | head -n 1
+  188  nano largest
+  189  ./Bert/largest
+  190  cd Bert
+  191  ./largest
+  192  ls
+  193  cd ..
+  194  ls
+  195  cd Bert
+  196  ../largest
+  197  cd .. 
+  198  chmod a+x largest
+  199  ls -l
+  200  cd Bert
+  201  ../largest
+  202  cd data
+  203  cd ..
+  204  cd Bert
+  205  ../largest >> ../largest_output
+  206  cd ..
+  207  ls
+  208  cat largest_output
+  209  cd Thomas
+  210  ../largest >> ../largest_output
+  211  cd ../gerdal
+  212  ../largest >> ../largest_output
+  213  cat ../largest_output 
+  214  mv ../largest_output summary.txt
+  215  cat ../summary.txt
+  216  ls ..
+  217  find .. summary.txt
+  218  cd ..
+  219  ls
+  220  cat summary.txt
+  221  find ../summary.txt
+  222  cd gerdal
+  223  ls
+  224  mv summary.txt ../summary.txt
+  225  cd ..
+  226  ls
+  227  cat summary.txt
+  228  history >> ~/Documents/history.txt
